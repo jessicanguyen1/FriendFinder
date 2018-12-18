@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- CSS -->
+    <style>
+        h4 {
+            font-size: 20px;
+    }
+
+    h3 {
+        padding-top: 10px;
+    }
+    </style>
+
+
+
+    <div class="container">
+        <h2>Survey Questions</h2>
+        <hr>
+
+        <h3><b>About You</b></h3>
+        <h4 class="mainInput">Name (Required) <span class="error text-danger"></span> </h4>
+        <input type="text" name="" id="name" class="form-control">
+
+        <h4 class="mainInput">Link to Photo Image (Required) <span class="error text-danger"></span> </h4>
+        <input type="text" name="" id="image" class="form-control">
+
+        <hr>
+
+        <!-- Survey Questions -->
+        <h3 class="question"><b>Question 1</b></h3>
+        <h4>Dogs rule and cats drool.</h4>
+        <select data-placeholder="" class="browser-default" id="q1">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+        <h3 class="question"><b>Question 2</b></h3>
+        <h4>The toilet paper should go over the roll, not under.</h4>
+        <select data-placeholder="" class="browser-default" id="q2">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 3</b></h3>
+        <h4>You hit snooze on your alarm multiple times rather than getting up as soon as it goes off.</h4>
+        <select data-placeholder="" class="browser-default" id="q3">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 4</b></h3>
+        <h4>Ketchup should always go on the side, not directly on the fries.</h4>
+        <select data-placeholder="" class="browser-default" id="q4">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 5</b></h3>
+        <h4>Toothpaste tubes should always be squeezed from the bottom up.</h4>
+        <select data-placeholder="" class="browser-default" id="q5">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 6</b></h3>
+        <h4>You rarely do something just out of sheer curiosity.</h4>
+        <select data-placeholder="" class="browser-default" id="q6">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+
+        <h3 class="question"><b>Question 7</b></h3>
+        <h4>Folding your slice of pizza in half like a taco is your preferred way of consuming pizza.</h4>
+        <select data-placeholder="" class="browser-default" id="q7">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+        <h3 class="question"><b>Question 8</b></h3>
+        <h4>You pronounce the word "Gif" like the peanut butter "Jif".</h4>
+        <select data-placeholder="" class="browser-default" id="q8">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+        <h3 class="question"><b>Question 9</b></h3>
+        <h4>Sandwiches should be cut straight in half, not diagonally.</h4>
+        <select data-placeholder="" class="browser-default" id="q9">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+        <h3 class="question"><b>Question 10</b></h3>
+        <h4>You prefer iPhones over Androids.</h4>
+        <select data-placeholder="" class="browser-default" id="q10">
+            <option value="1">1 (Strongly disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly agree)</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submitBtn" style="background:#FDD7E4; color:black;"><i
+                class="fas fa-heart" style="font-size:1em;"></i> </i>
+            Submit</button>
+
+        <hr>
+        <!-- Footer -->
+        <div class='col s4'>
+            <p><a href='/api/friends'>API Friends List</a> | <a href='' target='_blank'>GitHub Repo</a></p>
+        </div>
+    </div>
+
+
+
+
+    <!-- Materialize Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Meet Your New Best Friend</h4>
+            <h5 id="matchName"></h5>
+            <img id="photo" src="" alt="No Image" width=250px>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Grabs information and sends it to server -->
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#submitBtn").on("click", function () {
+                //form validation
+                function validateForm() {
+                    var isValid = true;
+                    $('.validate').each(function () {
+                        if ($(this).val() === '') {
+                            isValid = false;
+                        }
+                    });
+                    $('.browser-default').each(function () {
+                        if ($(this).val() === "") {
+                            isValid = false;
+                        }
+                    });
+                    return isValid;
+                }
+                //if everything is filled
+                if (validateForm() == true) {
+                    //creates a new friend from the values submitted
+                    var newFriend = {
+                        name: $('#name').val().trim(),
+                        profilePic: $('#photo').val().trim(),
+                        scores: [
+                            $('#q1').val(),
+                            $('#q2').val(),
+                            $('#q3').val(),
+                            $('#q4').val(),
+                            $('#q5').val(),
+                            $('#q6').val(),
+                            $('#q7').val(),
+                            $('#q8').val(),
+                            $('#q9').val(),
+                            $('#q10').val(),
+                        ]
+                    };
+
+                    //AJAX posts the data to friends API.
+                    $.post("/api/friends", newFriend, function (data) {
+                        //Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                        $("#matchName").text(data.name);
+                        $("#photo").attr("src", data);
+                        console.log(data);
+                    });
+
+                    // Show the modal with the best match
+                    $('.modal').show();
+                    //clear form after submission
+                    $('#name').val("");
+                    $('#photo').val("");
+                    $('#q1').val("");
+                    $('#q2').val("");
+                    $('#q3').val("");
+                    $('#q4').val("");
+                    $('#q5').val("");
+                    $('#q6').val("");
+                    $('#q7').val("");
+                    $('#q8').val("");
+                    $('#q9').val("");
+                    $('#q10').val("");
+                } else {
+                    alert("Please fill out ALL fields before submitting survey!")
+                }
+                return false;
+            });
+        });
+    </script>
+
+</body>
+
+</html>
