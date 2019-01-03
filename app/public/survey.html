@@ -25,6 +25,20 @@
     h3 {
         padding-top: 10px;
     }
+
+    .modal-content {
+        position: relative;
+        width: 400px;
+        margin: 60px auto;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .modal-content img {
+        display: block;
+        margin: auto;
+        padding: 15px;
+    }
     </style>
 
 
@@ -181,10 +195,13 @@
             <h4>Meet Your New Best Friend</h4>
             <h5 id="matchName"></h5>
             <img id="photo" src="" alt="No Image" width=250px>
+            <div class="modal-footer">
+                <a href="/" class="btn btn-primary btn-lg btn-block" style="background-color: #FDD7E4; color:black">
+                    <i class="fas fa-heart" style="font-size:1em;"></i>
+                    &nbsp; Done</a>
+            </div>
         </div>
-        <div class="modal-footer">
-            <a href="/" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
-        </div>
+
     </div>
 
     </div>
